@@ -10,6 +10,7 @@ import kotlinx.coroutines.launch
 class ItemViewModel(private val repository: ItemRepository) : ViewModel() {
     val items = mutableStateOf<List<Item>>(emptyList())
 
+
     init {
         loadItems()
     }

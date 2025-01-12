@@ -70,7 +70,7 @@ fun ItemsScreen(viewModel: ItemViewModel) {
                     containerColor = MaterialTheme.colorScheme.primaryContainer,
                     titleContentColor = MaterialTheme.colorScheme.primary,
                 ),
-                title = { Text("Seznam ingrediencí") }
+                title = { Text("Nákup") }
             )
         },
         floatingActionButton = {
